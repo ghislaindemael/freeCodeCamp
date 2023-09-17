@@ -1,0 +1,76 @@
+body {
+    background-color: rgba(25, 10, 100, 0.75);
+}
+
+form label {
+    display: block;
+    padding-bottom: 10px;
+}
+
+form fieldset {
+    border: 0;
+    padding: 0;
+}
+
+h1, p, label, .submit-button {
+    color: white;
+    font-family: Arial, serif;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+}
+
+.survey {
+    max-width: 500px;
+    width: 90%;
+    margin: auto;
+    background-color: rgba(27, 27, 50, 0.8);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.survey-item {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.line-input {
+    margin-top: 5px;
+}
+
+.survey-item .line-input {
+    display: block;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.box-input {
+    display: block;
+    margin-top: 5px;
+    min-height: 75px;
+    width: 100%;
+    padding: 5px;
+    font-size: medium;
+    font-family: Arial, sans-serif;
+    border-radius: 3px;
+    resize: vertical;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-button {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(10, 240, 10);
+    height: 40px;
+    border: 0;
+    min-width: 300px;
+}
