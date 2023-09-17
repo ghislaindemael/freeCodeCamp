@@ -1,2 +1,2 @@
 # freeCodeCamp courses
-Just some sem-homemade code
+Just some semi-homemade code
