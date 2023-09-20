@@ -1,0 +1,59 @@
+body {
+    font-family: Ebrima, sans-serif;
+}
+
+.nav-div {
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    background-color: #FEFEFE;
+    border-right: double #AAAAAA 2px;
+    padding: 0;
+}
+
+.nav-div header, .nav-div a {
+    display: block;
+    border-bottom: solid black 1px;
+}
+
+.nav-div header {
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.nav-div a {
+    color: black;
+    font-size: 18px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.main-div {
+    overflow-x: hidden ;
+    width: 69%;
+    font-size: large;
+    background-color: #FEFEFE;
+    margin-left: 25%;
+    padding: 25px 10px 10px 25px
+}
+
+.main-div section, .main-div section * {
+    display: block;
+}
+
+.main-div section header {
+    font-size: 25px;
+}
+
+.main-div section p {
+    font-size: 17px;
+}
+
+.main-div li {
+    font-size: 17px;
+}
+
+
+
